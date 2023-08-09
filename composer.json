@@ -1,0 +1,26 @@
+{
+    "name": "username/tg-test",
+    "description": "123",
+    "authors": [
+        {
+            "name": "123"
+        }
+    ],
+	
+	"autoload": { "classmap": [ "Libraries/" ] },
+	
+    "require": {
+		"php": "8.*",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-ctype": "*",
+        "ext-iconv": "*",
+        "ext-dom": "*",
+
+
+        "danog/madelineproto": "*",
+        "symfony/var-dumper": "^6.2",
+
+        "paquettg/php-html-parser": "^3.1"
+    }
+}
